@@ -19,7 +19,7 @@ Login Manager written in Fish.
       - login
     - end
  - Modify your keyboard shortcuts, .desktop files, etc:
-    - add "~/.config/fish/functions/execIfLoged.fish " before the real command;
+    - add 'fish -c "execIfLoged <yourCommandHere>" ';
 
  - Modify the file login.fish:
     - Set the variables term_width and term_height to your terminal's width and height, in CHARACTERS (not pixel);
