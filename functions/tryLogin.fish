@@ -1,3 +1,3 @@
 function tryLogin
-	sudo -p $argv"Password: " true
+	sudo -p $argv(echoColored Blue "Password: ") true
 end
