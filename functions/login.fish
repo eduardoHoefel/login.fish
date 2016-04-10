@@ -23,7 +23,7 @@ function login
 		end
 		echo ""
 		tput sgr0
-		echo $spaces2(echoColored Blue "Username: ")$USER
+		echo $spaces2(custom_echo Blue Bold "Username: ")$USER
 		if tryLogin $spaces2
 			echo ""
 			echo $spaces2"Login succesful."
